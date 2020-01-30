@@ -31,10 +31,13 @@ cp init-config.json config.json
 ```console
 //copy libs to destination dir
 npm run copy
+
 //remove libs from destination dir
 npm run remove
+
 //stash libs from destination dir
 npm run stash
+
 //retrive libs to destination dir from stash
 npm run retrive
 ```
