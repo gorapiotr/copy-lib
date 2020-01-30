@@ -1,0 +1,21 @@
+{
+    "name": "copy-packages",
+    "version": "0.0.1",
+    "description": "copy packages example",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "copy": "node ./script/copy-module.js",
+        "remove": "node ./script/remove-module.js",
+        "stash": "node ./script/stash-module.js",
+        "retrive": "node ./script/retrive-module.js"
+    },
+    "author": "Piotr Gora",
+    "license": "ISC",
+    "devDependencies": {
+        "log-symbols": "^3.0.0",
+        "ncp": "^2.0.0",
+        "rimraf": "^3.0.0",
+        "shelljs": "^0.8.3"
+    }
+}
