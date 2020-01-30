@@ -17,7 +17,7 @@ cp init-config.json config.json
 3. Set up config
 
 ```json
-
+//example configuration
 {
     "destination": "./demo/project2/node_modules",
     "sources": [
@@ -29,15 +29,15 @@ cp init-config.json config.json
 ```
 4. Run command
 ```console
-//copy libs to destination dir
+# copy libs to destination dir
 npm run copy
 
-//remove libs from destination dir
+# remove libs from destination dir
 npm run remove
 
-//stash libs from destination dir
+# stash libs from destination dir
 npm run stash
 
-//retrive libs to destination dir from stash
+# retrive libs to destination dir from stash
 npm run retrive
 ```
