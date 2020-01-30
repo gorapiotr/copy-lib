@@ -1,7 +1,7 @@
 const rimraf = require('rimraf');
 const logSymbols = require('log-symbols');
-const config = require('../config').config;
-const coumptePath = require('../utils').coumptePath;
+const config = require('../config');
+const coumptePath = require('../utils/path-functions').coumptePath;
 
 console.log('\033[2J');
 console.log('\x1b[33m%s\x1b[0m', 'Script is running now.');

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const shell = require('shelljs');
-const config = require('./config').config;
+const config = require('../config').config;
 
 module.exports.coumptePath = (source, destination) => {
     let sourceSplitted = source.split('/');

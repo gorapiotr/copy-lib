@@ -1,7 +1,7 @@
 const ncp = require('ncp').ncp;
 const logSymbols = require('log-symbols');
-const config = require('../config').config;
-const getSourcePath = require('../utils').getSourcePath;
+const config = require('../config');
+const getSourcePath = require('../utils/path-functions').getSourcePath;
 
 ncp.limit = 1;
 
